@@ -1,0 +1,33 @@
+.main {
+  display: flex;
+  color: white;
+}
+
+.aside {
+  width: 300px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 10px;
+  background: rgb(65, 70, 105);
+}
+
+select {
+  width: calc(100% - 20px);
+  padding: 10px;
+}
+
+.new-item {
+  width: calc(100% - 20px);
+  padding: 10px;
+  background: none;
+  border: none;
+  border: 1px solid white;
+  color: white
+}
+
+.new-item:hover {
+  background: rgb(87, 94, 139);
+}
